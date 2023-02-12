@@ -46,9 +46,13 @@ The following modules also require configuration files (in `config-dir`):
 
 ### Slack
 
-TODO: Describe how to get Slack token.
+Based on the guide at: https://medium.com/@andrewarrow/how-to-get-slack-api-tokens-with-client-scope-e311856ebe9
 
-https://medium.com/@andrewarrow/how-to-get-slack-api-tokens-with-client-scope-e311856ebe9
+1. Head to https://api.slack.com/apps?new_classic_app=1
+2. Create a new app
+3. Choose the option to configure the app from scratch
+4. Enter the app name and select the workspace you want to use
+5. Head to `OAuth & Permissions` and enter something to use as a redirect URL (such as `https://example.com/slack`)
 
 ## Execution
 
